@@ -29,10 +29,16 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `guru` (
   `kode_guru` char(5) NOT NULL,
-  `nama` varchar(40) NOT NULL,
+  `nama_guru` varchar(40) NOT NULL,
   `kelompok_guru` varchar(10) NOT NULL,
   `mata_pelajaran` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `pasien`
+--
+
+INSERT INTO `guru` (`kode_guru`, `nama_guru`, `kelompok_guru`, `matapelajaran`) VALUES
 
 -- --------------------------------------------------------
 
